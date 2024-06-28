@@ -36,15 +36,15 @@ To set up the modularium-sniper codebase locally, follow these steps:
    git clone https://github.com/yourusername/modularium-sniper.git
    cd modularium-sniper
 2. **install dependencies**
-``` bash
-  npm install
-```
+   ``` bash
+     npm install
+   ```
 ## Usage
 1. **Disperse TIA:**
    put in your private key of the dispersing wallet and the wallet address in the `disperse.js` then run disperse.js to distribute TIA to multiple addresses.
-   ``` bash
-   node disperse.js
-   ```
+    ``` bash
+      node disperse.js
+      ```
 2. **Monitor Drops:**
    fill in the private keys for all you wallets and then run `getDrop.js` to monitor for dropCreated events it then automatically does the rest for you:
    ```bash
